@@ -1594,7 +1594,7 @@ _if you run an older compiler_
 - Remove [[nodiscard]] (_This is used in later compiler versions so if it errors for you_)
 - [updated] now static inline construction is changed depending on CXX ver
 
-## License
+## Thank you
 ---
 _FlyFF is owned and operated and developed by Galanet/Aeonsoft. This is only an implementation made by myself, Kia#8008._
 
