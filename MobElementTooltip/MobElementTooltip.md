@@ -144,4 +144,4 @@
 
 ## Thank you
 ---
-_Implementation by Kia#8008. Original code done by Aeonsoft/Galanet._
+_Implementation by Kia#1411. Original code done by Aeonsoft/Galanet._
