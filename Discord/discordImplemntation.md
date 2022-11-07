@@ -365,6 +365,10 @@ when there is no class image found jobnpc is used.
         #define AREA_ARENA 70
         #define AREA_GUIDLWAR 71
         ```
+   -  World.h Changing something to const
+        ```CPP
+			[[nodiscard]] auto GetId() const { return m_dwWorldID; }
+        ```
    -  Make a file named "disc.h" / "disc.cpp" and add the following to it. Afterwards, add the file to the neuz project.
         disc.h
         ```CPP

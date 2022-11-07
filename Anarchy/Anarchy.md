@@ -817,6 +817,10 @@ _Anarchy is a system that replaces lord. It allows players and staff to start wo
         #endif
         #endif
         ```
+   -  **Dbcontroller.h** (in class CDbController)
+        ```CPP
+        	[[nodiscard]] void* getIocp() const { return m_hIocp; }
+        ```		
    -  **Anarchy.cpp**
         ```CPP
         #include "StdAfx.h"

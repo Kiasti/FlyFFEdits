@@ -6,6 +6,12 @@
 
 ## Adding Parts to Source
 ---
+- **Put in PutToolTip / PutToolTipEx Functions**
+	```cpp
+		#ifdef __MobElementDisplay
+			mobElement = 0;
+		#endif
+	```
 - **Data.h**  
     Within: **namespace SAI79** after the enum.  
     _Create some inline functions in the same namespace as elements._  
