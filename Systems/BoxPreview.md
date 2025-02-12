@@ -1,6 +1,9 @@
 # Box Preview
 _Box Preview/Opener is a system to slow down box opening slightly but also give information to what the box contains. Whether it be a gift box, or a pack box, both information is shown. This also includes the percentages to acquire an item. If an item has a + modifer, that is also shown in the tooltip._
 
+[![BoxPreview](http://img.youtube.com/vi/GEXbKUfn1bk/0.jpg)](https://www.youtube.com/watch?v=GEXbKUfn1bk)
+
+
 ---
 ## Features
 - Preview boxes and rates.
@@ -1708,14 +1711,13 @@ _Box Preview/Opener is a system to slow down box opening slightly but also give 
     IDS_RESDATA_INC_009704 Open Box
     ```
 
-## Changes based on VS
----
-_if you run an older compiler_
-- Remove [[nodiscard]] (_This is used in later compiler versions so if it errors for you_)
 
 ## License
 ---
-_the work of Kia#1411_
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+_FlyFF is an mmorpg created by GalaNet/Aeonsoft. This implementation was done by myself:_
+| Account  | Site |
+| -------- | ------- |
+| Kiaemi. | Discord |
+| Velvet | RageZone |
+| M¿dScientist | Elitepvpers |
 

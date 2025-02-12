@@ -762,7 +762,13 @@ _In order to use discord integrartion, you must set up a discord application thr
 
 ## Thanks
 ---
-_FlyFF is an mmorpg created by GalaNet/Aeonsoft. This implementation was done by myself, Kia#0001. Please also follow the discord rules for having an application: [Discord Legal](https://discord.com/developers/docs/legal)_
+_FlyFF is an mmorpg created by GalaNet/Aeonsoft. This implementation was done by myself:_
+| Account  | Site |
+| -------- | ------- |
+| Kiaemi. | Discord |
+| Velvet | RageZone |
+| M¿dScientist | Elitepvpers |
 
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
+
+Please also follow the discord rules for having an application: [Discord Legal](https://discord.com/developers/docs/legal)

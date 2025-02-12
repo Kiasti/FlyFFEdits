@@ -59,7 +59,10 @@ _In the v15 leak of the flyff source code, the scanner used to load resource fil
      ```
 ## Thank you
 ---
-_FlyFF is owned and operated and developed by Galanet/Aeonsoft. This is only an implementation made by myself, Kia#1411._
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+_FlyFF is an mmorpg created by GalaNet/Aeonsoft. This implementation/fix was done by myself:_
+| Account  | Site |
+| -------- | ------- |
+| Kiaemi. | Discord |
+| Velvet | RageZone |
+| M¿dScientist | Elitepvpers |
 

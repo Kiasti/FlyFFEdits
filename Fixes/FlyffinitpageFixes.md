@@ -287,3 +287,12 @@ _CWorld::RenderObject_
 	}
 	```
 
+## Thank you
+---
+_FlyFF is an mmorpg created by GalaNet/Aeonsoft. This implementation was done by myself:_
+| Account  | Site |
+| -------- | ------- |
+| Kiaemi. | Discord |
+| Velvet | RageZone |
+| M¿dScientist | Elitepvpers |
+
