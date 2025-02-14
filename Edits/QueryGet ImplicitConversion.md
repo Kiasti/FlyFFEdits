@@ -489,7 +489,9 @@ struct Getter
 
 **Usage**:
 ```cpp
-	CQuery::Getter getter(pQuery);
+	//CQuery::Getter getter(pQuery); // You can create a separate one
+	CQuery::Getter& getter = pQuery->getter_; // or you can tie it back to the variable stored in CQuery.
+	// In shorter queries, it'd be acceptable to do pQuery->getter_.Get()
 	if (pQuery->Execute("usp_GuildHouse_MaxSEQ '%02d'", g_appInfo.dwSys))
 	{
 		if (pQuery->Fetch())
