@@ -1,6 +1,10 @@
 # Disable NPC Dialogue Option  
 _The chat bubbles can get annoying for the player and this has been quite well recieved._
 
+## Changelog
+---
+- Feb 13, 2025 - Implemented ClearNpcMessages
+
 ---
 ## Adding parts to the source
 ---
@@ -36,6 +40,38 @@ _The chat bubbles can get annoying for the player and this has been quite well r
 			g_WndMng.PutString(szChat, pMover, 0xffffffff, CHATSTY_GENERAL);
 		}
      ```   	
+
+
+---
+
+Upon setting the option, remove the existing npc dialogues.
+
+```cpp
+void CDialogMsg::ClearNpcMessages(const bool MonsterMessages)
+{
+	for (int i = 0; i < m_textArray.GetSize(); i++)
+	{
+		const tagCUSTOMTEXT* lpCustomText = static_cast<tagCUSTOMTEXT*>(m_textArray.GetAt(i));
+		if (auto* object = lpCustomText->m_pObj; IsValidObj(object) && object->GetType() == OT_MOVER)
+		{
+			if (static_cast<CMover*>(object)->IsNPC() && (static_cast<CMover*>(object)->IsPeaceful() || MonsterMessages))
+			{
+				SAFE_DELETE(lpCustomText);
+				m_textArray.RemoveAt(i);
+				i--;
+			}
+		}
+	}
+}
+```
+
+Whenever you change the option via your option window:
+```cpp
+g_DialogMsg.ClearNpcMessages(false);
+```
+
+
+
 
 
 ## Thank you
